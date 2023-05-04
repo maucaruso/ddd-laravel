@@ -2,7 +2,7 @@
 
 namespace Domain\Task\Actions;
 
-use Domain\Task\DataTransferObjects\TaskDto;
+use Domain\Task\Dto\TaskDto;
 use Domain\Task\Models\Task;
 
 final class CreateTaskAction

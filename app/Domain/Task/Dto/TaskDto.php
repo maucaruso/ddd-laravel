@@ -1,7 +1,8 @@
 <?php
 
-namespace Domain\Task\DataTransferObjects;
+namespace Domain\Task\Dto;
 
+use App\Web\Task\Requests\TaskRequest;
 use Spatie\DataTransferObject\DataTransferObject;
 
 class TaskDto extends DataTransferObject
